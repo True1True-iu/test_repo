@@ -18,7 +18,7 @@
 
 - `display_info()`: Выводит информацию о студенте в удобном для чтения формате.
   
-''' python
+'''
 def display_info(self):
 print(f"Имя: {self.name}")
 print(f"Возраст: {self.age}")
