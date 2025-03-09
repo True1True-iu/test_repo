@@ -17,27 +17,9 @@
 ### Методы
 
 - `display_info()`: Выводит информацию о студенте в удобном для чтения формате.
-  
-'''
-def display_info(self):
-print(f"Имя: {self.name}")
-print(f"Возраст: {self.age}")
-print(f"Специальность: {self.major}")
-print(f"Средний балл студента: {self.gpa}")
-'''
 
 - `calculate_grade()`: Определяет оценку студента на основе его GPA.
   
-
-  def calculate_grade(self):
-      if self.gpa >= 4.0:
-          return "Отлично"
-      elif self.gpa >= 3.0:
-          return "Хорошо"
-      elif self.gpa >= 2.0:
-          return "Удовлетворительно"
-      else:
-          return "Неудовлетворительно"
 
 ## Установка
 
