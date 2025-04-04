@@ -53,7 +53,3 @@ print('city' in my_dict)  # Вернет False
 del my_dict['age']
 print(my_dict.keys())  # Вернет ['name']
 print(my_dict.values())  # Вернет ['Alice']
-del my_dict['age']
-print(my_dict.keys())  # Вернет ['name']
-print(my_dict.values())  # Вернет ['Alice']
-
